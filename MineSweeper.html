@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mine Sweeper</title>
+<script src="./script.js"></script>
+<style>
+    th{
+        border-style: solid;
+        border-width: 1px;
+        width: 20px;
+        height: 20px;
+    }
+    table{
+        border-collapse: collapse;
+    }
+</style>
+</head>
+<body>
+    <div id = "game_div">
+        <table id = "game_table">
+            <tbody id = "game_table_body">
+            <tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+            <tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+            <tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+            <tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+            <tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+            <tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+            <tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+            <tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+            <tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+        </tbody>
+        </table>
+    </div>
+    <div id = "controll_div">
+        <form>
+            <select id="difficulty_select">
+                <option value="easy">Easy</option>
+                <option value="normal">Normal</option>
+                <option value="hard">Hard</option>
+            </select>
+        </form>
+        <button id="start_btn" type="button" onclick="start_game()">Start Game</button>
+    </div>
+</body>
+</html>
