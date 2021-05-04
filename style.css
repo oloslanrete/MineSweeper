@@ -1,0 +1,63 @@
+.cell_1 {
+  color: #ffbf00;
+}
+
+.cell_2 {
+  color: #80ff00;
+}
+
+.cell_3 {
+  color: #00ff40;
+}
+
+.cell_4 {
+  color: cyan;
+}
+
+.cell_5 {
+  color: #0040ff;
+}
+
+.cell_6 {
+  color: #8000ff;
+}
+
+.cell_7 {
+  color: #ff00bf;
+}
+
+.cell_8 {
+  color: red;
+}
+
+.cell_0 {
+  color: gray;
+}
+
+th {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  width: 20px;
+  height: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#game_div {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+#game_table {
+  margin: auto;
+}
+
+#difficulty_select, #start_btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=style.css.map */

@@ -3,17 +3,7 @@
 <head>
 <title>Mine Sweeper</title>
 <script src="./script.js"></script>
-<style>
-    th{
-        border-style: solid;
-        border-width: 1px;
-        width: 20px;
-        height: 20px;
-    }
-    table{
-        border-collapse: collapse;
-    }
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id = "game_div">
@@ -31,15 +21,16 @@
         </tbody>
         </table>
     </div>
-    <div id = "controll_div">
-        <form>
+    <div id = "control_div">
+        <form id = "setting_form">
             <select id="difficulty_select">
                 <option value="easy">Easy</option>
                 <option value="normal">Normal</option>
                 <option value="hard">Hard</option>
             </select>
+            <button id="start_btn" type="button" onclick="start_game()">Start Game</button>
         </form>
-        <button id="start_btn" type="button" onclick="start_game()">Start Game</button>
+        
     </div>
 </body>
 </html>
